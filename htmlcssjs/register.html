@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="index.css" />
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .register_section {
+      max-width: 500px;
+      margin: 80px auto;
+      padding: 40px;
+      background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    .register_section h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #e5b900;
+      margin-bottom: 30px;
+    }
+
+    .register_form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .register_form input {
+      padding: 12px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    .register_form button {
+      background-color: #e5b900;
+      color: white;
+      padding: 12px;
+      font-size: 18px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .register_form button:hover {
+      background-color: #d4a800;
+    }
+
+    .back_section {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .back_button {
+      display: inline-block;
+      padding: 10px 25px;
+      background-color: #e5b900;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+
+    .back_button:hover {
+      background-color: #d4a800;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #e5b900;
+      color: white;
+      margin-top: 50px;
+    }
+
+    .navlink-join {
+      background-color: #e5b900 !important;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .navlink-join:hover {
+      background-color: #d4a800;
+    }
+
+    .navbar {
+      background-color: #fff;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar a {
+      color: #333;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .fiolet {
+      color: #e5b900;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo"><span class="fiolet">Магия</span>Кода</a>
+      <a href="index.html" class="navlink">Главная</a>
+      <a href="about.html" class="navlink">О нас</a>
+      <a href="https://codecombat.com/play/level/the-gem?" target="_blank" class="navlink">Игры</a>
+      <a href="contacts.html" class="navlink">Контакты</a>
+      <a href="register.html" class="navlink-join">Присоединиться</a>
+    </nav>
+  </header>
+
+  <section class="register_section">
+    <h1>Регистрация</h1>
+
+    <form class="register_form">
+      <input type="text" name="name" placeholder="Ваше имя" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="tel" name="phone" placeholder="Телефон" />
+      <input type="password" name="password" placeholder="Пароль" required />
+      <input type="password" name="confirm_password" placeholder="Повторите пароль" required />
+      <button type="submit">Зарегистрироваться</button>
+    </form>
+  </section>
+
+  <section class="back_section">
+    <a href="index.html" class="back_button">← Назад на главную</a>
+  </section>
+
+  <footer>
+    © 2025 Магия Кода — Все права защищены
+  </footer>
+
+</body>
+</html>

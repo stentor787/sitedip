@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff9e6;
+  color: #333;
+  line-height: 1.6;
+}
+
+/*---------------------- Навигация ----------------------------*/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 50px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: #ffc107;
+  font-weight: 700;
+  font-size: 32px;
+  margin-right: auto;
+}
+
+.fiolet {
+  color: #ff9800;
+}
+
+.navlink,
+.navlink-join {
+  color: #333;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.navlink:hover,
+.navlink-join:hover {
+  color: #ff9800;
+}
+
+.navlink-join {
+  background-color: #ffc107;
+  color: #000;
+  border-radius: 30px;
+}
+
+/*---------------------- Welcome ----------------------------*/
+
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 50px;
+  background: linear-gradient(135deg, #fff8dc, #ffffff);
+  flex-wrap: wrap;
+}
+
+.welcome_text {
+  max-width: 600px;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.welcome_textp {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.welcome_button {
+  margin-top: 30px;
+  padding: 15px 50px;
+  background-color: #ffc107;
+  color: black;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.welcome_button:hover {
+  background-color: #ff9800;
+}
+
+.welcome_image img {
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/*---------------------- Watch ----------------------------*/
+
+.watch {
+  padding: 100px 50px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.watch_texth {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.watch_textp {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.watch_learn {
+  font-weight: 600;
+  color: #ff9800;
+  font-size: 18px;
+}
+
+.watch_video {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/*---------------------- Advantages ----------------------------*/
+
+.advantages {
+  padding: 80px 50px;
+  background-color: #fffdf5;
+  text-align: center;
+}
+
+.advantage_h h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.our_advantages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.advantage {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  width: 220px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.advantage:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(255, 193, 7, 0.2);
+}
+
+.advantage_text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.advantage_img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+/*---------------------- Pricing ----------------------------*/
+
+.pricing_h {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.pricing_h h1 {
+  font-size: 40px;
+}
+
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  padding: 0 50px 100px;
+}
+
+.price {
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 40px;
+  width: 300px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.price h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.price ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.price li {
+  margin: 10px 0;
+}
+
+.price p {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.premium_button {
+  padding: 15px 40px;
+  background-color: #ffc107;
+  color: black;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.premium_button:hover {
+  background-color: #ff9800;
+}
+
+.basic {
+  color: #ff9800;
+}
+
+.premium {
+  color: #ffc107;
+}
+
+/*---------------------- Form ----------------------------*/
+
+.form {
+  background-color: white;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 60px;
+  border-radius: 25px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input_group label {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.input_group input {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.form_h {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/*---------------------- Footer ----------------------------*/
+
+footer {
+  background: linear-gradient(127deg, #c87d00, #ffd54f, #c87d00);
+  color: #000;
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.footer_left,
+.footer_right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 200px;
+}
+
+.footer_h {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer_links {
+  color: #333;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer_links:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Иконки соцсетей */
+.brands_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.brand_logo {
+  transition: transform 0.3s ease;
+}
+
+.brand_logo:hover {
+  transform: scale(1.1);
+}
+
+.brand_img {
+  width: 35px;
+  height: 35px;
+  filter: none;
+}
+
+/* Кнопка назад */
+.back_button {
+  background-color: #ffc107;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.back_button:hover {
+  background-color: #ff9800;
+}
+.advantage_img {
+  filter: brightness(0) saturate(100%) invert(67%) sepia(96%) saturate(381%) hue-rotate(1deg) brightness(97%) contrast(103%);
+}
